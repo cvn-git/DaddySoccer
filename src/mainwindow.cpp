@@ -28,7 +28,7 @@ static const double goalieDepth = 0.01;
 
 static const double minTacklingTime = (4 * playerRadius) / playerSpeed;
 
-static const std::string dataPath = "../DaddysSoccer/data";
+static const std::string dataPath = "../DaddySoccer/data";
 static const std::string scoreFont = dataPath + "/OpenSans-Bold.ttf";
 
 std::random_device randomDevice;

@@ -79,8 +79,7 @@ private:
 };
 
 
-
-
+#undef main // undefine main in SDL
 int main(int argc, char** argv)
 {
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_JOYSTICK) < 0) {
